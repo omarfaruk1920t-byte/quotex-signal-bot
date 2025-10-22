@@ -16,7 +16,7 @@ FAST_WINDOW = int(os.getenv("FAST_WINDOW", "7"))
 SLOW_WINDOW = int(os.getenv("SLOW_WINDOW", "21"))
 POLL_SECONDS = int(os.getenv("POLL_SECONDS", "60"))
 
-bot = Bot(token=7395449062:AAEjnrKjLw4vmBS7ia4sWUPckUtP-Z5Z1cI)
+bot = Bot(token=)
 
 def fetch_price(symbol=SYMBOL):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval={INTERVAL}&range=1d"
